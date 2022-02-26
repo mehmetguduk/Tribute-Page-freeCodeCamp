@@ -1,3 +1,8 @@
+/*
+THIS FILE WAS DEVELOPED BY MEHMET GUDUK
+© 2022 COPYRIGHT, LICENSED WITH GPL-3.0 LICENSE, AUTHOR IS MEHMET GUDUK
+*/
+
 :root {
     --white1: #e6e6e6;
     --white2: #ededed;
@@ -42,7 +47,7 @@ i#back-to-top {
     z-index: 1;
     cursor: pointer;
     opacity: 0.4;
-    transition: 0.3s;
+    transition: opacity 0.3s;
 
     &:hover {
         opacity: 0.8;
@@ -69,7 +74,7 @@ figure#img-div {
         margin: 0 auto;
         height: auto;
         border-radius: 3px;
-        border: 5px solid var(--white1);
+        border: 3px solid var(--white1);
         filter: grayscale(100%);
         object-fit: cover;
         object-position: center;
@@ -112,8 +117,8 @@ section#tribute-info {
             font-weight: bold;
             color: var(--black1);
             cursor: pointer;
-            opacity: 0.8;
-            transition: 0.3s;
+            opacity: 0.7;
+            transition: opacity 0.3s;
 
             &:hover {
                 opacity: 1;

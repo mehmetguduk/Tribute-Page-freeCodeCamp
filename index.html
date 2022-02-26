@@ -1,3 +1,8 @@
+<!--
+THIS FILE WAS DEVELOPED BY MEHMET GUDUK
+© 2022 COPYRIGHT, LICENSED WITH GPL-3.0 LICENSE, AUTHOR IS MEHMET GUDUK
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -136,11 +141,25 @@
 
     <i id="back-to-top" class="fas fa-arrow-circle-up"></i>
 
-
-
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script>
-        document.querySelector("#back-to-top").addEventListener("click", () => { window.scrollTo({ top: 0, behavior: 'smooth' }) })
+        const BACK_TO_TOP = document.querySelector("#back-to-top")
+
+        window.addEventListener("scroll", function (event) {
+            if (this.scrollY > 400) {
+                BACK_TO_TOP.style.display = "block";
+            }
+            else {
+                BACK_TO_TOP.style.display = "none";
+            }
+        });
+
+        BACK_TO_TOP.addEventListener("click", function (event) {
+            event.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            })
+        });
     </script>
 </body>
 
