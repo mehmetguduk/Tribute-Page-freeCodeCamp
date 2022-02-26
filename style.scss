@@ -8,7 +8,7 @@
     --fontsize3: 13px;
     --fontsize4: 25px;
     --mainpadding: 50px 100px;
-    --mainwidth: width: 80%;
+    --mainwidth: 60%;
 }
 
 * {
@@ -35,7 +35,7 @@ main {
 
 i#back-to-top {
     font-size: var(--fontsize1);
-    color: red;
+    color: var(--black1);
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -55,7 +55,7 @@ header {
     color: var(--black1);
 
     h1#title {
-        font-size: 3px;
+        font-size: var(--fontsize1);
     }
     p#subtitle {
         font-size: var(--fontsize2);
@@ -156,122 +156,49 @@ p.copyright {
     }
 }
 
-
 @media only screen and (max-width: 1200px) {
-    :root{
-        --fontsize1: 35px;
-        --fontsize2: 20px;
-        --fontsize3: 13px;
-        --fontsize4: 25px;
+    :root {
+        --fontsize1: 30px;
+        --fontsize2: 18px;
+        --fontsize4: 23px;
+        --mainpadding: 45px 80px;
+        --mainwidth: 70%;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    :root{
-        --fontsize1: 35px;
-        --fontsize2: 20px;
-        --fontsize3: 13px;
-        --fontsize4: 25px;
+    :root {
+        --mainpadding: 40px 60px;
+        --mainwidth: 80%;
     }
 }
 @media only screen and (max-width: 800px) {
-    :root{
-        --fontsize1: 35px;
-        --fontsize2: 20px;
-        --fontsize3: 13px;
-        --fontsize4: 25px;
+    :root {
+        --fontsize2: 16px;
+        --fontsize4: 21px;
+        --mainpadding: 35px 40px;
+        --mainwidth: 90%;
     }
 }
 @media only screen and (max-width: 600px) {
-    :root{
-        --fontsize1: 35px;
-        --fontsize2: 20px;
-        --fontsize3: 13px;
-        --fontsize4: 25px;
+    :root {
+        --mainpadding: 30px 20px;
+        --mainwidth: 100%;
     }
 }
 @media only screen and (max-width: 400px) {
-    :root{
-        --fontsize1: 35px;
-        --fontsize2: 20px;
-        --fontsize3: 13px;
-        --fontsize4: 25px;
+    :root {
+        --fontsize1: 30px;
+        --fontsize2: 15px;
+        --fontsize3: 12px;
+        --fontsize4: 19px;
     }
 }
-@media only screen and (max-width: 300px) {
-    :root{
-        --fontsize1: 35px;
-        --fontsize2: 20px;
-        --fontsize3: 13px;
-        --fontsize4: 25px;
-    }
-}
+
 @media only screen and (max-width: 200px) {
-    :root{
-        --fontsize1: 35px;
-        --fontsize2: 20px;
-        --fontsize3: 13px;
-        --fontsize4: 25px;
+    :root {
+        --fontsize1: 25px;
+        --fontsize4: 16px;
+        --fontsize2: 14px;
     }
 }
-
-
-
-/* 
-@media only screen and (max-width: 600px) {
-    html {
-        font-size: 6px;
-    }
-    main {
-        padding: 30px 20px;
-        width: 100%;
-    }
-    img#image {
-        border: 0 !important;
-        border-radius: 2px !important;
-    }
-}
-@media only screen and (min-width: 600px) {
-    html {
-        font-size: 7px;
-    }
-    main {
-        padding: 35px 40px;
-        width: 90%;
-    }
-}
-@media only screen and (min-width: 768px) {
-    html {
-        font-size: 8px;
-    }
-    main {
-        padding: 40px 60px;
-        width: 80%;
-    }
-}
-@media only screen and (min-width: 992px) {
-    html {
-        font-size: 9px;
-    }
-    main {
-        padding: 45px 80px;
-        width: 70%;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    html {
-        font-size: 10px;
-    }
-    main {
-        padding: 50px 100px;
-        width: 60%;
-    }
-}
-
---fontsize1: 35px;
---fontsize2: 20px;
---fontsize3: 13px;
---fontsize4: 25px;
---mainpadding: 50px 100px;
---mainwidth: width: 80%;
-*/
