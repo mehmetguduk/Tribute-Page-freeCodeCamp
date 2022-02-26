@@ -39,6 +39,7 @@ main {
 }
 
 i#back-to-top {
+    display: none;
     font-size: var(--fontsize1);
     color: var(--black1);
     position: fixed;
