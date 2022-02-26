@@ -35,7 +35,7 @@ main {
 
 i#back-to-top {
     font-size: var(--fontsize1);
-    color: var(--black1);
+    color: red;
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -55,7 +55,7 @@ header {
     color: var(--black1);
 
     h1#title {
-        font-size: var(--fontsize1);
+        font-size: 3px;
     }
     p#subtitle {
         font-size: var(--fontsize2);
@@ -156,24 +156,10 @@ p.copyright {
     }
 }
 
-/* min-599 px */
-@media only screen and (max-width: 600px) {
-    html {
-        font-size: 6px;
-    }
-    main {
-        padding: 30px 20px;
-        width: 100%;
-    }
-    img#image {
-        border: 0 !important;
-        border-radius: 2px !important;
-    }
-}
 
 @media only screen and (max-width: 1200px) {
     :root{
-        --fontsize1: 3px;
+        --fontsize1: 35px;
         --fontsize2: 20px;
         --fontsize3: 13px;
         --fontsize4: 25px;
@@ -232,6 +218,19 @@ p.copyright {
 
 
 /* 
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 6px;
+    }
+    main {
+        padding: 30px 20px;
+        width: 100%;
+    }
+    img#image {
+        border: 0 !important;
+        border-radius: 2px !important;
+    }
+}
 @media only screen and (min-width: 600px) {
     html {
         font-size: 7px;
